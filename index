@@ -1,3 +1,7 @@
 test a new branch
 useful line
+<<<<<<< HEAD
 in the main branch
+=======
+other line added by remote
+>>>>>>> origin/new_branch
