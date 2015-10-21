@@ -7,9 +7,11 @@ class Person {
 	public:
 		Person(std::string name);
 		std::string talk();
+		int walk();
 	private:
 		std::string name;
 		std::string message;
+		int steps;
 };
 
 #endif
