@@ -5,6 +5,7 @@ int main() {
 
 	Person joe("Joe");
 	Person bob("Bob");
+	std::cout<<"hello guys!"<<std::endl;
 
 	std::cout<<joe.talk()<<std::endl;
 	std::cout<<bob.talk()<<std::endl;
